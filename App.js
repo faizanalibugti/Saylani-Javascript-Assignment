@@ -566,7 +566,7 @@ document.write("<p>1. Declare an empty array using JS literal notation to store 
 var studentName = [];
 
 document.write("<p>2. Declare an empty array using JS object notation to store student names in future.</p><br>");
-
+var student = new Array();
 
 document.write("<p>3. Declare and initialize a strings array.</p><br>");
 var stringArray = ['faizan', 'ali', 'bugti', 'saylani']
