@@ -805,15 +805,3 @@ for (var i = 1; i <= 20; i++) {
     arr.push(ans);
 }
 document.write(arr + "is the list of multiple of 5");
-
-
-
-
-
-// document.write("<p>Write a program</p><br>");
-
-
-// document.write("<p>Write a program</p><br>");
-
-
-// document.write("<p>Write a program</p><br>");
