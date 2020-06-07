@@ -703,7 +703,108 @@ document.write("<p>15. Write a program to store phone manufacturers (Apple, Sams
 var mobilesCompanies = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier']
 document.write(`<select><option>${mobilesCompanies[0]}</option><option>${mobilesCompanies[1]}</option><option>${mobilesCompanies[2]}</option><option>${mobilesCompanies[3]}</option><option>${mobilesCompanies[4]}</option><option>${mobilesCompanies[5]}</option></select>`)
 
+// Chapter 17-20
+//Task 1
+var multiArr = [[1, 2], [2, 3]];
 
+//Task 2
+var multiArr = [[0, 1, 2, 3],[1, 0, 1, 2],[2, 1, 0, 1]];
+
+//Task 3
+for (var i = 1; i <= 10; i++) {
+    document.write(i + "<br>");
+}
+
+//Task 4
+var num = +prompt("Enter table number");
+var times = +prompt('Enter length of table');
+
+for (i = 1; i <= times; i++) {
+    ans = num * i;
+    document.write(num + "times" + i + "=" + ans);
+}
+
+//Task 5
+var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+for (var i = 0; i < fruits.length; i++) {
+    document.write("Element at index" + i + "is " + fruits[i]);
+}
+
+//Task 6 
+var arr = []
+for (var i = 1; i <= 15; i++) {
+    arr.push(i)
+}
+document.write("counting:" + arr);
+
+var arr1 = []
+for (var i = 10; i >= 0; i--) {
+    arr1.push(i)
+}
+document.write("Reverse counting:" + arr1);
+
+var arr2 = []
+for (var i = 0; i <= 20; i = i + 2) {
+    arr2.push(i)
+}
+document.write("Even counting:" + arr2);
+
+var arr3 = []
+for (var i = 1; i <= 20; i = i + 2) {
+    arr3.push(i)
+}
+document.write("Odd counting:" + arr3);
+
+var arr4 = []
+for (var i = 0; i <= 20000; i = i + 2000) {
+    arr4.push(i)
+}
+document.write("Series counting:" + arr2);
+
+//Task 7
+var A = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+var name = prompt("Enter a word");
+
+for (var i = 0; i < A.lenght; i++) {
+    if (name === A[i]) {
+        document.write(name + "is available at index" + i + "in our bakery")
+    }
+    else {
+        document.write("sorry your item is not available")
+    }
+}
+
+//Task 8
+var array = [3, 6, 2, 56, 32, 5, 89, 32];
+var largest = array[0];
+
+for (i = 0; i < array.lenght; i++) {
+    if (array[i] > largest) {
+        var largest = array[i];
+    }
+}
+
+document.write(largest + "is the largest num in array");
+
+//Task 9
+var array = [3, 6, 2, 56, 32, 5, 89, 32];
+var smallest = array[0];
+
+for (i = 0; i < array.lenght; i++) {
+    if (array[i] < smallest) {
+        var smallest = array[i];
+    }
+}
+
+document.write(smallest + "is the smallest num in array");
+
+//Task 10
+var arr = []
+for (var i = 1; i <= 20; i++) {
+    ans = 5 * i;
+    arr.push(ans);
+}
+document.write(arr + "is the list of multiple of 5");
 
 
 
